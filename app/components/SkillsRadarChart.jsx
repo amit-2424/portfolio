@@ -18,14 +18,13 @@ const data = [
 
 export default function SkillsRadarChart() {
   return (
-    <div className="w-full px-4 md:py-10 sm:px-6 lg:px-8 bg-white rounded-2xl shadow-md max-w-5xl mx-auto">
+    <div className="w-full px-4 md:py-10 sm:px-6 lg:px-8 rounded-2xl shadow-md max-w-5xl mx-auto">
 
       <div className="w-full h-[250px] md:h-[400px]">
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart cx="50%" cy="50%" outerRadius="75%" data={data}>
             <PolarGrid />
             <PolarAngleAxis dataKey="subject" />
-            {/* <PolarRadiusAxis angle={30} domain={[0, 100]} /> */}
             <Tooltip />
             <Radar
               name="Amit Mondol"
@@ -38,7 +37,7 @@ export default function SkillsRadarChart() {
         </ResponsiveContainer>
       </div>
 
-      <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-2xl sm:text-3xl font-bold text-center dark:text-white text-gray-800 mb-8">
         MERN Stack & Tools Skill Radar
       </h2>
     </div>

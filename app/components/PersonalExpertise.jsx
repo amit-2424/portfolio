@@ -6,10 +6,10 @@ import SkillsRadarChart from "./SkillsRadarChart";
 
 const PersonalExpertise = () => {
     return (
-        <section className="flex flex-col md:flex-row items-center md:justify-between gap-5 md:px-24 px-8 lg:pr-[12%] bg-white">
+        <section className="flex flex-col md:flex-row items-center md:justify-between gap-5 md:px-24 px-8 lg:pr-[12%]">
             {/* Left: Image */}
             <div className="md:w-1/2 flex justify-center relative">
-                <div className="absolute w-32 md:w-60 h-8 md:h-60 bg-purple-500 rounded-full -z-10 top-10 left-10"></div>
+                <div className="absolute w-32 md:w-60 h-8 md:h-6 -z-10 top-10 left-10"></div>
                 <SkillsRadarChart />
             </div>
 
@@ -18,7 +18,7 @@ const PersonalExpertise = () => {
                 <h2 className="text-3xl font-bold text-purple-600 mb-4">
                     My Personal Expertise
                 </h2>
-                <p className="text-gray-700 mb-6">
+                <p className="text-gray-700 mb-6 dark:text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum
                     leo tellus, eget blandit urna con sequat sit amet. Aenean tincidunt
                     lacus eget purus dictum, congue imperdiet eleifend.

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <section className="hero bg-gradient-to-br bg-yellow-50 text-white h-screen flex items-center px-6 md:px-16 relative">
+        <section className="hero text-white h-screen flex items-center px-6 md:px-16 relative">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between md:gap-12 gap-4">
                 {/* Left Side Image */}
                 <div className="md:w-1/3">
