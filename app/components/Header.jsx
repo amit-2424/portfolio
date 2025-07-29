@@ -26,6 +26,7 @@ const Header = () => {
                         I specialize in front-end development with a strong expertise in React, creating modern and responsive web applications.
                     </p>
                     <a
+                        id="#work"
                         href="#projects"
                         className="inline-block px-6 py-3 bg-none border border-orange-500 hover:bg-indigo-300 text-orange-500 font-semibold rounded-full transition duration-300"
                     >

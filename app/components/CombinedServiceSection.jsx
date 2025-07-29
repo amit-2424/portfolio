@@ -33,7 +33,7 @@ const CombinedServiceSection = () => {
               flex flex-col items-center justify-center text-center shadow-xl
               hover:shadow-purple-300 hover:-translate-y-2
               ${service.isActive
-                ? 'border-purple-600 bg-purple-300 text-white shadow-lg scale-105'
+                ? 'border-purple-600 bg-blue-400 text-white shadow-lg scale-105'
                 : 'border-gray-300 text-gray-800'}
             `}
           >
