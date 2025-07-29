@@ -33,7 +33,7 @@ export default function ContactForm() {
     };
 
     return (
-        <section className="bg-white dark:bg-[#0f172a] py-16 px-6 sm:px-10 rounded-lg shadow-lg">
+        <div id="contact" className="bg-white dark:bg-[#0f172a] py-16 px-6 sm:px-10 rounded-lg shadow-lg">
             <div className="max-w-2xl mx-auto">
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-6 text-center">
                     Contact Me
@@ -85,6 +85,6 @@ export default function ContactForm() {
                     )}
                 </form>
             </div>
-        </section>
+        </div>
     );
 }
